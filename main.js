@@ -35,7 +35,7 @@ function metodus(tomb,tartalomElemEz){
 function kepek(lis,tartalomElemEz){
     let kepjel="<article>"
     for (let index = 0; index < lis.length; index++) {
-        kepjel += '<img src="'+lis[index]+'">'
+        kepjel += '<img src="'+lis[index]+' ">'
     }
     tartalomElemEz[1].innerHTML+=kepjel
 }
